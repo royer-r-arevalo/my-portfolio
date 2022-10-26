@@ -8,7 +8,7 @@
     background: rgba(255, 2555, 255, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     position: fixed;
     z-index: 2;
 }
@@ -48,7 +48,6 @@
             height: 5px;
             background: transparent;
             border-radius: 50%;
-
             margin-bottom: 5px;
         }
 
@@ -133,7 +132,7 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            
+
             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
@@ -163,7 +162,7 @@
         }
     }
 
-    @media screen and (min-width: 900px){
+    @media screen and (min-width: 900px) {
         display: none;
     }
 }
